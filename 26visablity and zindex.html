@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>thsi is z index and visablity</title>
+	<style type="text/css">
+		.box {
+			height: 170px;
+			width: 170px;
+			border: 2px solid red;
+			
+
+		}
+		#box1
+		{background-color: pink;
+			position: relative;
+			top: 70px;
+			z-index: 16;
+
+		}
+		#box2
+		{background-color: blue;
+			position: relative;
+			top :4px;
+			/*visibility: visible;   deffult*/
+			/*visibility: hidden; to hide the box and show empty space*/
+			/*display: none; to remaove the box */
+			z-index: 19;
+
+
+		}
+		#box3
+		{background-color: green;
+
+		}
+		#box4
+		{background-color: yellow;
+
+		}
+
+		
+
+	</style>
+</head>
+<body>
+	<div class="box" id="box1"></div>
+		<div class="box" id="box2"></div>
+
+<div class="box" id="box3"></div>
+<div class="box" id="box4"></div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>this is psudo selector tutorial</title>
+<style type="text/css">
+.cont {
+	width: 500px;
+	display: block;
+	margin: auto;
+}
+input
+{
+	display: block;
+}
+input[type="text"]
+{
+	border: 2px solid red;
+	padding: 10px;
+	margin: 10px;
+
+}
+a[target]
+{
+	font-size: 44px;
+	color: pink;
+}
+a[target="self"]
+{
+	color: red;
+	font-size: 20px;
+}
+	
+	  li:nth-child(2n+0){
+        color: red;
+        background-color: yellow}
+        li:nth-child(5){
+        	color: blue;
+        	background-color: cyan;
+        }
+
+</style>
+</head>
+<body>
+	<div class="cont">
+		<h1>
+			<a href="http://google.com" target="blank">go to google</a>
+		</h1>
+		<h1><a href="http://facebook.com" target="self">Go to facebook</a></h1>
+		<form class="fore">
+			<input type="text" name="" placeholder="enter your name">
+			<input type="text" name="" placeholder="enter your age ">
+			<input type="submit" name="submit">
+			<input type="" name="">
+
+
+		</form>
+		<ul>
+			<li class="item" id="item1">first</li>
+			<li class="item" id="item2">second</li>
+			<li class="item" id="item3">third</li>
+			<li class="item" id="item4">forth</li>
+			<li class="item" id="item5">fifth</li>
+			<li class="item" id="item6">first</li>
+			<li class="item" id="item7">second</li>
+			<li class="item" id="item8">third</li>
+			<li class="item" id="item9">forth</li>
+			<li class="item" id="item10">fifth</li>
+
+
+
+		</ul>
+
+	</div>
+
+</body>
+</html>

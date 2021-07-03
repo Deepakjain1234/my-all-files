@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>this is animation tutorial</title>
+
+<style type="text/css">
+    .cont 
+    {
+        background-color:  cyan;
+
+    }
+    .box
+    { position: relative;
+        height: 200px;
+        width: 200px;
+        background-color: red;
+        /*animation: deepak1 ;*/
+        animation: deepak2;
+        animation-duration :4s;
+        animation-iteration-count: infinite;
+        /*animation-fill-mode: alternate;*/
+        /*animation-delay: 3s;*/
+         /*animation: animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-fill-mode; */  }
+     @keyframes deepak2
+     {
+        0%{ top: 0px;
+            left: 0px;
+
+
+        }
+        25%
+        {top: 500px;
+            left: 0px;
+
+        }
+        
+        75%
+        {top: 500px;
+            left: 500px;
+
+
+        }
+        100%
+        {top: 0px;
+            left: 500px;
+
+        }
+
+
+     }
+
+
+
+
+
+
+    @keyframes deepak1
+    {
+        form
+        {
+            width: 200px;
+            height: 200px;
+
+        }
+        to {
+            width: 800px;
+            height: 20px;
+
+        }
+    }
+
+</style>
+</head>
+<body>
+   <div class="cont">
+       
+        <div class="box">box</div>
+   </div>
+
+</body>
+</html>

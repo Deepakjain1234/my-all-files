@@ -1,0 +1,21 @@
+{
+  "name": "tut69",
+  "version": "1.0.0",
+  "description": "this is good package",
+  "main": "tut69.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "awasome"
+  ],
+  "author": "deepak",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "slugify": "^1.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
